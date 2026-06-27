@@ -15,6 +15,9 @@ import com.demo.compose.presentation.GreetingScreen
 import com.demo.compose.ui.theme.DemoComposeTheme
 import dagger.hilt.android.AndroidEntryPoint
 
+/**
+ * This is entry class for the compose demo application.
+ */
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
